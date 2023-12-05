@@ -62,6 +62,7 @@ const computerDiv = document.getElementById('computer1').innerText = computerCho
 document.getElementById('computer1').style.color = 'orange';
 
 // this reloads the game once end end game button is selected 
-document.getElementById('endGameButton').addEventListener('click', function() {
+document.getElementById('endGameButton').addEventListener('click', function(){
   location.reload();
 });
+
