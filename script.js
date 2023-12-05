@@ -63,6 +63,6 @@ document.getElementById('computer1').style.color = 'orange';
 
 // this reloads the game once end end game button is selected 
 document.getElementById('endGameButton').addEventListener('click', function(){
-  location.reload();
+location.reload();
 });
 
