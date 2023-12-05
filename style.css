@@ -1,0 +1,61 @@
+/* sets the height and width of the HTML element to 100% of the browser's viewport. This means that the HTML element will take up the entire height and width of the browser window. */
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* create a flex container  */
+  .greenBox {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  /* This makes the background purple */
+  body {
+    background-color: purple;
+  }
+  
+  /* This centers the title of the game  */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Tthis places the images in the flex grid This class allows the items inside it to be arranged in a row or column  */
+  .flex-container {
+    display: flex;
+    background-color: lightblue;
+    height: 1%;
+    padding : 0%;
+    left: 0px;
+  
+  }
+  /* organizes the button */
+  button {
+    margin-bottom: 20px;
+    margin-left: 110px;
+  }
+  
+  
+  
+  /* this is the display of the robot choice after the button is clicked  */
+  #computer1 {
+    position: absolute;
+    bottom: 0;
+  font-size: 50px;;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* places the robot picture at the bottom left */
+  .stick2 {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+  /* Tgives the images of the food some space in between each other  */
+  img{
+    margin-bottom: 10px;
+    padding: 50px;;
+    margin-left: 120px;
+  }
